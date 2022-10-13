@@ -12,7 +12,6 @@ function App() {
     async function getText(){
         return await window.fetch("/test")
             .then(resp=>resp.text())
-            .then(val=>{return val});
     }
 
   return (
